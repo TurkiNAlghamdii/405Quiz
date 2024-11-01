@@ -28,6 +28,7 @@ function appendModels(models) {
     for (const model of models.Results) {
         const listItem = document.createElement('li');
         listItem.innerText = model.Model_Name;
+        uiElem.appendChild(listItem);
     }
 }
 
